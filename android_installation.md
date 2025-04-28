@@ -1,60 +1,60 @@
-# Instalación de Android Studio en Linux Mint
+# Installing Android Studio on Linux Mint
 
-Esta guía detalla los pasos para instalar Android Studio en tu sistema Linux Mint. Android Studio es el entorno de desarrollo integrado (IDE) oficial para el desarrollo de aplicaciones para la plataforma Android.
+This guide details the steps to install Android Studio on your Linux Mint system. Android Studio is the official integrated development environment (IDE) for developing applications for the Android platform.
 
-## Pasos de Instalación
+## Installation Steps
 
-Sigue estos pasos para instalar Android Studio en tu Linux Mint:
+Follow these steps to install Android Studio on your Linux Mint:
 
-### 1. Descargar Android Studio
+### 1. Download Android Studio
 
-1.  Abre tu navegador web y ve a la página oficial de descarga de Android Studio: [https://developer.android.com/studio](https://developer.android.com/studio)
-2.  Haz clic en el botón "Descargar Android Studio".
-3.  Lee y acepta los términos y condiciones.
-4.  Descarga el archivo `.tar.gz` de Android Studio para Linux.
+1.  Open your web browser and go to the official Android Studio download page: [https://developer.android.com/studio](https://developer.android.com/studio)
+2.  Click the "Download Android Studio" button.
+3.  Read and accept the terms and conditions.
+4.  Download the `.tar.gz` file for Android Studio for Linux.
 
-### 2. Extraer el Archivo Descargado
+### 2. Extract the Downloaded File
 
-1.  Abre tu terminal. Puedes hacerlo presionando `Ctrl + Alt + T`.
-2.  Navega hasta el directorio donde se guardó el archivo descargado (generalmente la carpeta `Descargas`).
+1.  Open your terminal. You can do this by pressing `Ctrl + Alt + T`.
+2.  Navigate to the directory where the downloaded file was saved (usually the `Downloads` folder).
     ```bash
-    cd Descargas
+    cd Downloads
     ```
-3.  Extrae el contenido del archivo `.tar.gz`. Reemplaza `android-studio-VERSION-linux.tar.gz` con el nombre exacto del archivo que descargaste.
+3.  Extract the contents of the `.tar.gz` file. Replace `android-studio-VERSION-linux.tar.gz` with the exact name of the file you downloaded.
     ```bash
     tar -xzf android-studio-VERSION-linux.tar.gz
     ```
-    Esto creará una nueva carpeta llamada `android-studio` en el directorio actual.
+    This will create a new folder named `android-studio` in the current directory.
 
-### 3. Ejecutar el Script de Instalación
+### 3. Run the Installation Script
 
-1.  Navega hasta el directorio `bin` dentro de la carpeta `android-studio` que se acaba de extraer.
+1.  Navigate to the `bin` directory inside the `android-studio` folder that was just extracted.
     ```bash
     cd android-studio/bin
     ```
-2.  Ejecuta el script de instalación `studio.sh`.
+2.  Execute the installation script `studio.sh`.
     ```bash
     ./studio.sh
     ```
-    Esto iniciará el asistente de configuración de Android Studio.
+    This will launch the Android Studio setup wizard.
 
-### 4. Completar el Asistente de Configuración
+### 4. Complete the Setup Wizard
 
-1.  **Importar Configuraciones Previas (Opcional):** Si has instalado Android Studio antes, se te preguntará si deseas importar configuraciones previas. Elige la opción adecuada o selecciona "No importar configuraciones" si es una instalación nueva. Haz clic en "OK".
-2.  **Enviar Estadísticas de Uso:** Se te preguntará si deseas compartir datos de uso con Google para ayudar a mejorar Android Studio. Elige la opción que prefieras y haz clic en "Siguiente".
-3.  **Tipo de Instalación:** Elige el tipo de instalación. "Estándar" es recomendado para la mayoría de los usuarios. Haz clic en "Siguiente".
-4.  **Tema de la Interfaz de Usuario:** Elige entre los temas "Darcula" (oscuro) o "IntelliJ Light" (claro). Haz clic en "Siguiente".
-5.  **Componentes del SDK:** El asistente mostrará los componentes del SDK de Android que se instalarán. Asegúrate de que "Android SDK" esté seleccionado. También puedes optar por instalar el "Android Virtual Device" si planeas usar emuladores. Haz clic en "Siguiente".
-6.  **Configuración del Emulador (Si se seleccionó):** Si elegiste instalar el "Android Virtual Device", se te pedirá que configures la memoria asignada. Ajusta según tus recursos y haz clic en "Siguiente".
-7.  **Verificar Configuración:** Revisa la configuración de la instalación. Si todo es correcto, haz clic en "Siguiente".
-8.  **Descargar y Instalar:** Haz clic en "Finalizar" para comenzar la descarga e instalación de los componentes necesarios. Este proceso puede llevar algún tiempo dependiendo de tu conexión a internet.
-9.  **Finalizar:** Una vez que la instalación se complete, haz clic en "Finalizar".
+1.  **Import Previous Settings (Optional):** If you have installed Android Studio before, you will be asked if you want to import previous settings. Choose the appropriate option or select "Do not import settings" for a fresh installation. Click "OK".
+2.  **Send Usage Statistics:** You will be asked if you want to share usage data with Google to help improve Android Studio. Choose your preferred option and click "Next".
+3.  **Install Type:** Choose the installation type. "Standard" is recommended for most users. Click "Next".
+4.  **UI Theme:** Choose between the "Darcula" (dark) or "IntelliJ Light" (light) themes. Click "Next".
+5.  **SDK Components:** The wizard will display the Android SDK components that will be installed. Ensure "Android SDK" is selected. You can also choose to install "Android Virtual Device" if you plan to use emulators. Click "Next".
+6.  **Emulator Settings (If selected):** If you chose to install the "Android Virtual Device", you will be asked to configure the allocated memory. Adjust according to your resources and click "Next".
+7.  **Verify Settings:** Review the installation settings. If everything is correct, click "Next".
+8.  **Download and Install:** Click "Finish" to begin downloading and installing the necessary components. This process may take some time depending on your internet connection.
+9.  **Finish:** Once the installation is complete, click "Finish".
 
-### 5. Iniciar Android Studio
+### 5. Start Android Studio
 
-Ahora puedes iniciar Android Studio desde el menú de aplicaciones de Linux Mint. Busca "Android Studio" y haz clic para ejecutarlo.
+You can now start Android Studio from the Linux Mint application menu. Search for "Android Studio" and click to run it.
 
-## Pasos Post-Instalación (Recomendado)
+## Post-Installation Steps (Recommended)
 
-* **Actualizar el SDK de Android:** Una vez que Android Studio esté abierto, ve a "Configure" (en la pantalla de bienvenida o en "File" > "Settings") y selecciona "SDK Manager". Aquí puedes actualizar las plataformas y herramientas del SDK de Android a las últimas versiones disponibles.
-* **Crear un Dispositivo Virtual Android (AVD):** Si planeas probar tus aplicaciones en un emulador, ve a "Configure" > "AVD Manager" y crea un nuevo dispositivo virtual con las especificaciones deseadas.
+* **Update Android SDK:** Once Android Studio is open, go to "Configure" (on the welcome screen or in "File" > "Settings") and select "SDK Manager". Here you can update the Android SDK platforms and tools to the latest available versions.
+* **Create an Android Virtual Device (AVD):** If you plan to test your applications on an emulator, go to "Configure" > "AVD Manager" and create a new virtual device with your desired specifications.
