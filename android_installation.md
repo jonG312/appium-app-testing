@@ -22,7 +22,7 @@ Follow these steps to install Android Studio on your Linux Mint:
     ```
 3.  Extract the contents of the `.tar.gz` file. Replace `android-studio-VERSION-linux.tar.gz` with the exact name of the file you downloaded.
     ```bash
-    tar -xzf android-studio-VERSION-linux.tar.gz
+    tar -xzf android-studio-2024.3.1.15-linux.tar.gz
     ```
     This will create a new folder named `android-studio` in the current directory.
 
