@@ -36,7 +36,7 @@ Before you can run and contribute to this project, ensure you have the following
     java --version
     ```
 * **Android SDK:** Required for testing Android applications. Ensure you have the necessary platform tools and emulator images (if needed).
-    * Download and install from [Android Studio](https://developer.android.com/studio).
+    * Download and install from [Android Studio](https://developer.android.com/studio).[installation](android_installation.md)
     * Set up the `ANDROID_HOME` environment variable.
     * Ensure `adb` is in your system's PATH.
 * **Node.js and npm:** Required for installing and running the Appium server.
