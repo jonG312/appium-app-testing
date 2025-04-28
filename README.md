@@ -51,6 +51,16 @@ Before you can run and contribute to this project, ensure you have the following
     npm install -g appium
     appium --version
     ```
+* **Appium GUI (Appium inspector):** Install the Appium server globally using npm.
+    ```bash
+    npm install -g appium
+    appium --version
+    ```
+* **Appium GUI (Appium Desktop):** Install the Appium server globally using npm.
+    ```bash
+    npm install -g appium
+    appium --version
+    ```
 * **Python:** Version 3.6 or higher (example client language).
     ```bash
     sudo apt update
