@@ -58,5 +58,3 @@ Ahora puedes iniciar Android Studio desde el menú de aplicaciones de Linux Mint
 
 * **Actualizar el SDK de Android:** Una vez que Android Studio esté abierto, ve a "Configure" (en la pantalla de bienvenida o en "File" > "Settings") y selecciona "SDK Manager". Aquí puedes actualizar las plataformas y herramientas del SDK de Android a las últimas versiones disponibles.
 * **Crear un Dispositivo Virtual Android (AVD):** Si planeas probar tus aplicaciones en un emulador, ve a "Configure" > "AVD Manager" y crea un nuevo dispositivo virtual con las especificaciones deseadas.
-
-¡Felicidades! Has instalado correctamente Android Studio en tu sistema Linux Mint. Ahora puedes comenzar a desarrollar tus aplicaciones para Android.
