@@ -25,14 +25,15 @@ This project leverages Appium, a powerful open-source test automation framework,
 
 ## Prerequisites
 
-Before you can run and contribute to this project, ensure you have the following installed and configured on your Linux system:
+Before you can run and contribute to this project, ensure you have the following installed and configured on your Linux computer:
 
-* **Operating System:** Ubuntu 20.04 or later (other Debian-based distributions should also work).
-* **Java Development Kit (JDK):** Version 11 or higher.
+* **Operating System:** Linux Mint 22 Wilma or later (other Debian-based distributions should also work).
+* **Java Development Kit (JDK):** Version 21.0.6 or higher.
     ```bash
-    sudo apt update
-    sudo apt install openjdk-11-jdk
-    java -version
+    sudo su
+         apt-get update && apt-get upgrade
+         apt-get install default-jdk
+    java --version
     ```
 * **Android SDK:** Required for testing Android applications. Ensure you have the necessary platform tools and emulator images (if needed).
     * Download and install from [Android Studio](https://developer.android.com/studio).
@@ -40,8 +41,8 @@ Before you can run and contribute to this project, ensure you have the following
     * Ensure `adb` is in your system's PATH.
 * **Node.js and npm:** Required for installing and running the Appium server.
     ```bash
-    sudo apt update
-    sudo apt install nodejs npm
+    apt-get update
+    apt-get install nodejs && apt-get npm
     node -v
     npm -v
     ```
